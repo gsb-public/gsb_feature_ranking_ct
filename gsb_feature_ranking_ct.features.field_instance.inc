@@ -43,7 +43,7 @@ function gsb_feature_ranking_ct_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_date',
-    'label' => 'Publication Date',
+    'label' => 'Source Publication Date',
     'required' => 1,
     'settings' => array(
       'custom_add_another' => '',
@@ -379,7 +379,7 @@ function gsb_feature_ranking_ct_field_default_field_instances() {
   t('Dek');
   t('Link to article');
   t('Media Format');
-  t('Publication Date');
+  t('Source Publication Date');
   t('Source Publication');
 
   return $field_instances;
