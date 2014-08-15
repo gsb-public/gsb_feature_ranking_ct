@@ -374,13 +374,68 @@ function gsb_feature_ranking_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-ranking-field_search_field'
+  $field_instances['node-ranking-field_search_field'] = array(
+    'bundle' => 'ranking',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'concat_field',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'concat_field_blank',
+        'weight' => 6,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_search_field',
+    'label' => 'Search field',
+    'required' => 0,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'selected_fields' => array(
+        'concat_field_entity_label' => 'concat_field_entity_label',
+        'field_date' => 'field_date',
+        'field_editorial_summary' => 'field_editorial_summary',
+        'field_icon' => 0,
+        'field_link_single' => 0,
+        'field_publisher' => 'field_publisher',
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'concat_field',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'concat_field_default',
+      'weight' => 8,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Dek');
   t('Link to article');
   t('Media Format');
-  t('Source Publication Date');
+  t('Search field');
   t('Source Publication');
+  t('Source Publication Date');
 
   return $field_instances;
 }

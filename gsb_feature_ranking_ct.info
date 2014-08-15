@@ -19,6 +19,7 @@ features[field_instance][] = node-ranking-field_editorial_summary
 features[field_instance][] = node-ranking-field_icon
 features[field_instance][] = node-ranking-field_link_single
 features[field_instance][] = node-ranking-field_publisher
+features[field_instance][] = node-ranking-field_search_field
 features[node][] = ranking
 features[variable][] = field_bundle_settings_node__ranking
 features[variable][] = menu_options_ranking
