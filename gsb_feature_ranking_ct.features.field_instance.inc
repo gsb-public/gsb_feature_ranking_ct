@@ -28,6 +28,7 @@ function gsb_feature_ranking_ct_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
@@ -43,6 +44,7 @@ function gsb_feature_ranking_ct_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
@@ -238,6 +240,7 @@ function gsb_feature_ranking_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'options',
       'settings' => array(
+        'checkall' => FALSE,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'options_buttons',

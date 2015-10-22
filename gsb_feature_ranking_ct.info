@@ -36,5 +36,6 @@ features[variable][] = menu_parent_ranking
 features[variable][] = node_options_ranking
 features[variable][] = node_preview_ranking
 features[variable][] = node_submitted_ranking
+features[variable][] = pathauto_node_ranking_pattern
 features[variable][] = workbench_access_node_type_ranking
 features[variable][] = workbench_moderation_default_state_ranking
